@@ -1,8 +1,8 @@
-#Pokerok to PokerStars Hand History Converter
+# Pokerok to PokerStars Hand History Converter
 
 This Python script is used to convert hand history files from Pokerok to PokerStars format for use in [Hand2Note](https://hand2note.com/).
 
-##Requirements
+## Requirements
 
 * Python 3.x
 
