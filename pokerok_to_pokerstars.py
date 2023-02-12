@@ -24,6 +24,7 @@ def process_txt_files(folder, new_folder):
 
                 # Some text processing using regex
                 content = re.sub(r'Poker Hand #HD', 'PokerStars Hand #20', content, flags=re.MULTILINE)
+                content = re.sub(r'Poker Hand #RC', 'PokerStars Hand #30', content, flags=re.MULTILINE)
                 content = re.sub(r' won ', ' collected ', content, flags=re.MULTILINE)
                 content = re.sub(r' and collected ', ' and won ', content, flags=re.MULTILINE)
                 content = re.sub(r'\n\n', '\n', content, flags=re.MULTILINE)
