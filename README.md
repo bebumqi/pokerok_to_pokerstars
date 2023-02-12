@@ -19,7 +19,7 @@ python
 
 ``` python pokerok_to_pokerstars.py -if /path/to/input/folder -of /path/to/output/folder ```
 
-This will convert all the hand history files in the input folder and save the converted files in the specified output folder.
+This will convert all hand history files in the input folder and save the converted files in the specified output folder.
 
 ## Contact
 
